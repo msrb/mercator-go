@@ -10,6 +10,8 @@ URL:        https://github.com/fabric8-analytics/%{name}-go
 
 Source0:    %{name}.tar.gz
 
+AutoReq:    no
+
 BuildRequires:  make openssl-devel golang git
 
 # python handler
